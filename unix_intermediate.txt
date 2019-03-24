@@ -1,0 +1,16 @@
+1) The  file “student.dat“ has few records. Records have three fileds Roll, Name and score . Records are separated by the default field separator  . File has a record heading. 
+   You have to find out the names  of the students  starting with R or r .
+   Write the command or set of commands you will use.
+
+2) The  file “student.dat“ has few records. Records have three fileds Roll, Name and score . Records are separated by the default field separator and are sorted in ascending order of the  roll . Records does not have heading. 
+   You have to find out the roll number of the highest scorer.
+
+3) A file named studentDetails.dat is present in multiple directories (sub directory) in my home directory.
+   Help me with the unix command to get a list of all the directories where the file is present and then provide execute permission to all users to that file.
+
+4) I have a directory CPP in my home directory.Help me with the command to remove all the files having extension cpp from the CPP directory irrespective of my current position.
+   That means the command should work from any directory.
+
+5) Write shell scripts to do the following:
+	a. To check whether a given number is prime or not.
+	b. To count how many prime numbers are there in a given list of numbers 

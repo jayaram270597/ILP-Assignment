@@ -1,0 +1,16 @@
+1) A vehicle menufacturing company wants to keep track of the vehicles they produce and the details of the customers who purchases vehicle along with the purchase . 
+   For a vehicle the information stored are manufacturing id which is unique for each vehicle,type ,color, production date and production cost.        
+   For a customer the name,address , contact number and a unique purchase id,
+   For each purchase by a customer , the date of purchase and the total price is recorded.
+   One customer can buy many vehicles. One vehicle can be purchased by only one customer.
+	a. Draw the ERD
+	b. Create tables.
+	c. Write a query to find the vehicle name which is purchased the most.
+
+2) Entitle Corporation offers various accommodation types in its hotel chains.  
+   Accomodation type has a unique name and rate. A hotel has a hotel ID, name,address and availibility status.
+   A hotel is of a particular accomodation type and one accomodation type may be there for different hotels.
+	1. Create the tables to store the information 
+	2. Also these tables have to be related by mentioning constraints in order to restrict the false information and data redundancy.
+	3. List the name of the hotel(s) which have the costliest accomodation type
+	4. List all accomodation type which is not there for any hotel.

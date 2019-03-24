@@ -1,0 +1,16 @@
+1) The following basics information needs to be maintained to run the Business on Car Rental service.Car Details like registration number,model,seat capacity, availability status, rate per mile
+   Service Providers details with the provider id,security deposit amount.
+   One service provider can provide many cars but one car can be provided by a single service provider.
+	1. Create the normalised tables to store the information.
+	2. List the details of available cars along with security deposit and rental rates.
+	3. List the car details which has security deposit and rental rates greater than 10,000.
+
+2) QWE Bank wants to automate its banking operations.The bank has many customers.One customer may have more than one accounts but one account can belong to only one customer. 
+   A customer has a Customer ID which is unique for him/her, a name and a contact number. An account has a unique account number and balance.
+	1. Draw the ERD and write the DDL statements to create  the tables.
+	2. Write a SQL query to get the name of the customer(s) who has/have more than one account in the bank.
+
+3) A project manager wants to maintain a database to keep track of the details of projects he/she manages and resources used  by projects.A project uses at least few resources and one resource may be used by different projects. 
+   Each and every project has a unique work order number, name , start date and end date. A resource is uniquely identified by a resource number and has a name.
+	• Draw the ERD and create tables for the database.
+	• Write SQL query to get a count (how many different resources are used) of resources used by each project along with the work order number of the project.

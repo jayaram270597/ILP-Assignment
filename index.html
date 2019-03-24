@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+ 
+   
+<title>ILP Assignment</title>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript" src="ilp_assignment_questions.js"></script>
+
+</head>
+
+<body class="backgroundstyle">
+
+<!--<img class="imgstyle" src="tcs_logo.png" alt="Italian Trulli">-->
+<h1 align="center" class="titlestyle">ILP Assignments:</h1>
+<div class="firstcolumn" >
+<h2 style="color:blue;">Select Course:</h2>
+<select class="coursestyle" id="course_id" onchange="changeCourse()">
+  <option value="unix">UNIX</option>
+  <option value="mysql">MySQL</option>
+  <option value="python">Python</option>
+</select>
+<form class="levelstyle" id="difficulty">
+  <input type="radio" id="easy" name="difficulty_level" value="easy" onclick="change(this)" checked> Easy<br>
+  <input type="radio" id="int" name="difficulty_level" value="intermediate" onclick="change(this)"> Intermediate<br> 
+  <input type="radio" id="diff" name="difficulty_level" value="difficult" onclick="change(this)"> Difficult  
+</form> 
+</div> 
+<div class="secondcolumn">
+<p class="para">Practice Questions:<p>
+<p class="secondcolumn" id="content" ><p>
+</div>
+</body>
+
+</html>

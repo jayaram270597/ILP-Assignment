@@ -1,0 +1,18 @@
+1) Write a program to accept a string and convert and print each letter to opposite case.
+
+2) Write an interactive menu driven program to calculate the area of square,circle or triangle.   
+
+3) Write a program to accept a string and find the number of consonants and vowels in it.
+
+4) Write if else constructs  that will examine the value of char type variable called color and print one of the following messages, depending the character assigned for color.
+   	RED if r or R is assigned to color.
+        Green if g or G is assigned to color.
+        Blue if b or B assigned to color.
+        Black if color is assigned to any other character.
+
+
+5) Write python program for the following requirements,
+	1. Write a Python program to print integer sum of numbers  upto 100.
+	2. Write a program to accept a character and check whether it is an alphabet, digit or special 
+   	   character.
+	3. Write an interactive program to get the number from the user  and  reverse the given number.

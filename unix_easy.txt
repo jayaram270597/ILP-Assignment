@@ -1,0 +1,15 @@
+1) Move the file T20 into INDOOR directory.
+   Create a copy file RULES file into INDOOR Directory by the name IndoorRules.
+
+2) Display the list of files present in directory /bin that starts with g and ends with p.      
+   Modify the statement to  restrict files to four letters only. 
+
+3) Construct a output as below using date command.
+   11 past 35 minute on Wednesday 4th of Jun 2014.
+
+4) The  file “student.dat“ has few records. You have to print the first 10 records from the file.
+   Write the command or set of commands you will use.
+
+5) The  file “student.dat“ has few records. Records have three fileds Roll, Name and score . Records are separated by the default field separator  . 
+   File has a record heading. You have to find out the names  of the students  starting with R or r .
+   Write the command or set of commands you will use.

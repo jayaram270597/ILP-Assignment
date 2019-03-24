@@ -1,0 +1,31 @@
+1)  A calculator can perform different activities. The calculator has some numbers stored in its memory.It cam perform the following operations on the numbers that are stored:
+	a. Average of the numbers.
+	b. Sum of the numbers
+	c. Lowest number
+	d. Highest number.
+
+2) A bookstore sells many books. Some of the books are new and some used. 10% discount is provided on used books by the bookshop whenever a customer purchases it. 
+   However that discount is applicable only if the customer buys at least one new book with it.  
+   The bookshop wants to automate the following activities.	
+	1) Find out whether an order placed  is applicable for discount or not. To place an order, books needs to be selected from the list.
+
+3) A boarding school wants to automate their day-to-day activities.
+   The school has a list of boarders who resides there. Also the school has a list of hostels that belongs to the school. A hostel has many rooms. The school wants to perform the following activities.
+	 1. To  add a boarder by taking his (Boarder object cannot be created without using the add method)
+	 2. To allocate a boarder to a room in a particular hostel which is vacant.
+	 3. To display the list of boarders along with room number by providing the hostel  name.
+   Note: A room has a room number and capacity. A hostel has a hostel ID and name.
+
+
+4) A society has a list of buildings. Each building has many apartments. An apartment has a apartment number, status(occupied/vacant) and type(1BHK/2BHK/3BHK). A building has a building number and name.
+   The society wants to get the apartment numbers where a family can be accommodated. The building type  will be taken as input.
+   Design a Python system to implement the functionality.
+
+5) The Electricity Bill Statement  takes units consumed from consumer and calculates the EB 
+   bill. Write a program to calculate the bill.  
+	Electricity Charges (EC) using provided criteria:
+               ~001 to less than 100 units @ Rs. 2.00/- (per unit)
+               ~100  less than  200 units @ Rs. 3.50/- (per unit)
+               ~200 and more units @ Rs. 4.50/- (per unit)
+               ~General sale tax which is the 10% of the EC.
+               ~Amount due (EC + Gen. sale tax)

@@ -1,0 +1,35 @@
+1) Write a shell script – reverse.sh
+   It will take a line as argument from the user, and display it in reverse order. If input string is null, error message should be given.
+   If user enters less or more number of arguments, an error should be thrown
+
+	Ex : 
+	Input    : This is Unix.
+	Output : Unix is This.
+
+2) Use awk for displaying first n numbers in Fibonacci series where n is supplied as command line argument.
+   Note: Fibonacci series of numbers are 0 and 1, and each remaining number is the sum of the previous two. 
+
+3) Write a script that would print any one of the following message along with the username according to the system time: 
+   Good Morning, between 12 AM and 12 PM.
+Good Afternoon, between 12PM and 4 PM
+Good Evening, after 4 PM
+
+4) Write a shell script to display the four letter words in a given file.The script will also print the count of such words.
+   The input file should be given as command line argument.The script will check whether sufficient arguments are there or not and whether the argument is a file or not while the script is executed. 
+   In case of invalid input, proper message should be displayed.
+   NOTE: The output should display the word only once although it may occur in the file more than once. Total count should be also the count of the distinct words.
+   e.g :-	If the content of the given file is as folows----------------
+  		There are three bags.
+  		This is a blue bag.
+  		My blue bags are full.
+
+  		The output should be as----------------------
+  		bags
+		This
+  		blue
+ 	 	full	
+		Count of four letter words is: 4 
+
+
+5) Write a shell script that prints the total number of users having a given file in their home directory. 
+   The input filename should be supplied as command line argument. 

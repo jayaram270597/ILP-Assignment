@@ -1,0 +1,28 @@
+1) Design a python system which will be able to automate the ticket booking for a bus.
+   The following are the attributes of the bus:
+	1. registrationNo – the registration number of the bus.
+	2. seatFare – fare of each seat of the bus.
+	3. availableSeat – number of seats available after booking in  the bus
+	4. cityList – List of names of cities where the bus travels.
+
+   The following are the functionalities the bus needs to perform :
+	1. checkJourneyFulfillment – In this  functionality, the bus is suppose to check if the bus travels to the given two cities. Both the cities are to be passed as parameters to the function, one as the source and other as the destination. If both the cities are found in the list of the bus, the return true or else return false.
+	2. seatAvailibility -  in this functionality, the bus is suppose to check if the number of seats required by the passenger is available in the bus. But the checking will be done only if the bus travels to both source and destination. The source, the destination and the numbe rof seats required are to be passed as parameter to the function. If seats are available, return 1. If seats are not available, return -1. If journey is not fulfilled return 0.
+	3. bookTicket – In this functionality, the bus is suppose to book the ticket for the passenger if seats are available and journey can be fulfilled. If both conditions are satisfied, return the total bill amount by calculating the fare and if seats are not available return -1. If journey not fulfilled return 0. The source, the destination and the numbe rof seats required are to be passed as parameter to the function.
+
+2) Design a python system which will be able to automate the functionalities of different departments in a college.
+   The class names are Department and College.
+   The following are the attributes of a Department :
+	1. did – The id of the department
+	2. name  - the name of  the department
+	3. noFac – The number of faculties working in the department
+   The following are the attributes of the College :
+    	1. dept – the list of departments in the college.
+   The following are the functionalities the College needs to perform :
+	1. getDetails : The college can get the details of a particular department with the given department id. The department id will be given as input to the method. The method is expected to return the department for which the id is given.
+	2. updateFaculty : The college can update the number of faculties of  a given department to the new number of faculties using this method. The department id and the new number of faculties will be given as input to the method.  The department for which the number of faculties is updated is to be returned from the function.
+	3. maxFaculties :  Using this method, the college can find out the department which has maximum number of faculties. The department with the maximum number of faculties is/are to be returned by the method.
+
+
+3) A gardening company has to cut down trees from a garden. Trees can be cut down only if they exceeds a given height. Also, the gardening company takes order only if the number of trees to be cut down are greater than a number which is fixed for the company.  
+   The gardening company wants to know if an order placed can be fulfilled or not.(For example, if 3 trees exceed the height and the company takes orders for not less than 5 trees then the order is not fulfilled)

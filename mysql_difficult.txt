@@ -1,0 +1,39 @@
+1) Entitle Corporation offers various tour packages to Europe and Africa. A customer can bokk many tour packages. 
+   Also, one tour package can be booked by many customers. While booking a tour package, customer has to provide the number of persons and travel date.
+   For each booking, a booking id is provided to the customer. A tour package has package Id, name and rate per person. A customer has a name and PAN.
+
+	1.Create the tables to store the information.
+	2.Also these tables have to be related by mentioning constraints in order to restrict the false information and data redundancy.
+	3.Retrieve active customer details.
+	4.List all available tour packages in Europe and Africa plans to the customer.
+
+2) Entitle Corporation offers various accommodation types in its hotel chains.  
+   Accomodation type has a unique name and rate. A hotel has a hotel ID, name,address and availibility status.
+   A hotel is of a particular accomodation type and one accomodation type may be there for different hotels.
+	1. Create the tables to store the information 
+	2. Also these tables have to be related by mentioning constraints in order to restrict the false information and data redundancy.
+	3. List the name of the hotel(s) which have the costliest accomodation type
+	4. List all accomodation type which is not there for any hotel.
+
+3) Entitle Corporation offers various Cruise packages to Europe and Africa. 
+
+   The following basics information needs to be maintained to run the Business on Cruise Service. 
+	1. Cruise  Package Information (Unique name, Description, Package rate and  number of persons, Status)
+	2. Customer details( SSN, name)
+	3. Booking details (travel date, Reference number)
+	4. Creation of tables for the required details, portraying the relationship between them and identifying the required constraints.
+	5. List the types of available Cruise
+	6. List the package details for the Customer with SSN=1234 booked for '1st-dec-2018'.
+
+4) A bookshop management system has many bookshops. A bookshop has many vendors. Each vendor has a unique vendor ID and name. A vendor may belong to different bookshops. 
+   Each bookshop has a shop ID which is unique, name.
+   The bookshop management system wants to perform the following functionalities
+	a. To get the details of the vendor(s) who works for a particular shop by giving the shop ID as input.
+	b. To search for the name of the shop who has highest vendors.
+   Also, the bookshop management system wants to maintain a database to capture the bookshop details and vendor details.
+
+	c.	Draw the ERD and create  the tables for the given scenario.
+	d.	Write a query to get the shop ID having highest vendors.
+
+
+
